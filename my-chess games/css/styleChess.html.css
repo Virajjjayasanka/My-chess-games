@@ -1,0 +1,177 @@
+.titily-name{
+  background-color: red;
+    height: 80px;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    border: ridge;
+    border-color: #2aabd2;
+}
+#main{
+    padding: 30px;
+
+}
+
+
+
+.img{
+    position: absolute;
+    height: 60px;
+    width: 65px;
+    left: 4px;
+    top: 5px;
+    z-index: 9999;
+}
+.img:hover{
+    position: absolute;
+    height: 60px;
+    width: 65px;
+    left: 4px;
+    top: 5px;
+    z-index: 9999;
+}
+.letter{
+    top: 20px;
+}
+
+
+
+.col-md-1{
+    height: 75px;
+    width: 75px;
+    /*background-color:transparent;*/
+    background-color: black;
+}
+
+
+body{
+    background-color: #d0e9c6;
+    background-image: url("../Images/1 (1).jpg");
+}
+img{
+    position: absolute;
+    height: 55px;
+    width: 60px;
+    left: 6px;
+    top: 5px;
+    z-index: 999999;
+
+}
+.col-xs-1{
+    height: 70px;
+    width: 70px;
+}
+.letter{
+    top: 20px;
+}
+.selectpath{
+    box-shadow: inset 0px 0px 6px 10px rgba(2000, 2245, 59, 2228);
+}
+.clickpiece{
+    box-shadow: inset 0px 0px 6px 10px rgba(60, 2, 590, .8);
+}
+.crosspiece{
+    box-shadow: inset 0px 0px 6px 10px rgba(230, 50, 60, .7);
+}
+.flex-container {
+
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color:transparent;
+    text-align:center;
+}
+
+.flex-item {
+    background-color: #1b6d85;
+    font-size: 15px;
+    width: 2000px;
+    height: 300px;
+    margin: 10px;
+    color: MenuText;
+
+}
+#roulss{
+    padding: 30px;
+    horiz-align: center;
+    text-align:center;
+    /*width: 400px;*/
+    height: 5005px;
+    /*margin: 100px;*/
+    float: inherit;
+
+
+}
+
+
+
+
+
+
+/*#row_last{ font-style: italic;}*/
+#two{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#three{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#fore{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#five{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#six{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#saven{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#eait{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#nine{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+
+#aaa{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#sss{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#ddd{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#fff{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#ggg{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#hhh{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#jjj{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+#kkk{background-color: #1b6d85;font-size: 25px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace }
+
+#ss{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#dd{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#ff{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color: #ec971f}
+#gg{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color:#ec971f }
+#hh{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color: #ec971f}
+#jj{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#kk{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#ll{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#mm{background-color: #1b6d85;font-size: 25px;padding: 10px;font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+
+#a{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#s{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color:#ec971f }
+#d{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#f{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#g{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#h{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#j{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#k{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#l{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color: #ec971f }
+#m{background-color: #1b6d85;font-size: 25px;padding: 10px; font-style: oblique; text-align: center; font-weight: bold;color:#ec971f }
+
+
+#z{background-color: #1b6d85;font-size: 35px;font-style: oblique; text-align: center; font-weight: bold;color: ThreeDFace}
+#s{background-color: #1b6d85;}
+#d{background-color: #1b6d85;}
+#f{background-color: #1b6d85;}
+#g{background-color: #1b6d85;}
+#h{background-color: #1b6d85;}
+#j{background-color: #1b6d85;}
+#k{background-color: #1b6d85;}
+#l{background-color: #1b6d85;}
+#m{background-color: #1b6d85;}
+#aa{background-color: #1b6d85;}
+#ss{background-color: #1b6d85;}
+#dd{background-color: #1b6d85;}
+#ff{background-color: #1b6d85;}
+#gg{background-color: #1b6d85;}
+#hh{background-color: #1b6d85;}
+#jj{background-color: #1b6d85;}
+#kk{background-color: #1b6d85;}
+#ll{background-color: #1b6d85;}
+#mm{background-color: #1b6d85;}
+
+
+
+

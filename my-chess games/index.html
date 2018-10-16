@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta nae="viewport" content="width=device-width,initial-scale=1">
+    <title>Online Chess</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styleChess.html.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+</head>
+<body>
+
+
+
+
+<div class="titily-name">CHESS GAME</div>
+
+<!--<div class="col-md-2"></div>-->
+<div class="col-md-8" id="main">
+
+    <!--<div class="titily-name">CHESS GAME</div>-->
+    <div class="row">
+
+        <div id="aa" class="col-md-1 "></div>
+        <div id="ss" class="col-md-1 ">A</div>
+        <div id="dd" class="col-md-1 ">B</div>
+        <div id="ff" class="col-md-1 ">C</div>
+        <div id="gg" class="col-md-1 ">D</div>
+        <div id="hh" class="col-md-1 ">E</div>
+        <div id="jj" class="col-md-1 ">F</div>
+        <div id="kk" class="col-md-1 ">G</div>
+        <div id="ll" class="col-md-1 ">H</div>
+        <div id="mm" class="col-md-1 "></div>
+
+    </div>
+    <div id="r1" class="row">
+        <div id="two" class="col-md-1"><span>1</span></div>
+        <div class="col-md-1 square" id="A1" style="background-color:black"><img src="Images/ruck-black.png" class="img chess  Black ruck"  id="1"></div>
+        <div class="col-md-1 square" id="B1" style="background-color:white"><img src="Images/Nightblack.png" class="img chess  Black "  id="2" ></div>
+        <div class="col-md-1 square" id="C1" style="background-color:black"><img src="Images/Bishopblack.png" class="img chess Black " id="3"></div>
+        <div class="col-md-1 square" id="D1" style="background-color:white"><img src="Images/Quenblack.png" class="img chess   Black "  id="4"></div>
+        <div class="col-md-1 square" id="E1" style="background-color:black"><img src="Images/Kingblack.png" class=" img chess  Black"  id="5" ></div>
+        <div class="col-md-1 square" id="F1" style="background-color:white"><img src="Images/Bishopblack.png" class=" img chess Black" id="6" ></div>
+        <div class="col-md-1 square" id="G1" style="background-color:black"><img src="Images/Nightblack.png" class=" img chess  Black"  id="7"></div>
+        <div class="col-md-1 square " id="H1" style="background-color:white"><img src="Images/ruck-black.png" class="img chess  Black" id="8"></div>
+        <div id="aaa" class="col-md-1">8</div>
+    </div>
+    <div id="r2" class="row">
+        <div id="three" class="col-md-1"><span>2</span></div>
+        <div class="col-md-1 square" id="A2" style="background-color: white"><img src="Images/pondblack.png" class=" img chess pondblack Black "  id="9" ></div>
+        <div class="col-md-1 square"  id="B2" style="background-color:black"><img src="Images/pondblack.png" class=" img chess  pondblack Black " id="10"></div>
+        <div class="col-md-1 square"  id="C2" style="background-color:white"><img src="Images/pondblack.png" class=" img chess  pondblack Black " id="11"></div>
+        <div class="col-md-1 square" id="D2" style="background-color:black"><img src="Images/pondblack.png" class=" img chess  pondblack Black " id="12"></div>
+        <div class="col-md-1 square" id="E2" style="background-color:white"><img src="Images/pondblack.png" class=" img chess   pondblack Black "  id="13"></div>
+        <div class="col-md-1 square" id="F2" style="background-color:black"><img src="Images/pondblack.png" class=" img chess   pondblack Black " id="14"></div>
+        <div class="col-md-1 square" id="G2" style="background-color:white"><img src="Images/pondblack.png" class=" img chess  pondblack Black" id="15"></div>
+        <div class="col-md-1 square "id="H2" style="background-color:black"><img src="Images/pondblack.png" class="chess  img   pondblack Black " id="16"></div>
+
+
+        <div id="sss" class="col-md-1">7</div>
+    </div>
+    <div id="r3" class="row">
+        <div id="fore" class="col-md-1"><span>3</span></div>
+        <div class="col-md-1 square" style="background-color: black" id="A3"></div>
+        <div class="col-md-1 square" style="background-color:white" id="B3"></div>
+        <div class="col-md-1 square" style="background-color:black" id="C3"></div>
+        <div class="col-md-1 square" style="background-color:white" id="D3"></div>
+        <div class="col-md-1 square" style="background-color:black" id="E3"></div>
+        <div class="col-md-1 square" style="background-color:white" id="F3"></div>
+        <div class="col-md-1 square" style="background-color:black" id="G3"></div>
+        <div class="col-md-1 square" style="background-color:white" id="H3"></div>
+        <div id="ddd" class="col-md-1">6</div>
+    </div>
+    <div id="r4" class="row">
+        <div id="five" class="col-md-1"><span>4</span></div>
+        <div class="col-md-1 square" style="background-color:white" id="A4"></div>
+        <div class="col-md-1 square" style="background-color:black" id="B4"></div>
+        <div class="col-md-1 square" style="background-color:white" id="C4"></div>
+        <div class="col-md-1 square" style="background-color:black" id="D4"></div>
+        <div class="col-md-1 square" style="background-color:white" id="E4"></div>
+        <div class="col-md-1 square" style="background-color:black" id="F4"></div>
+        <div class="col-md-1 square" style="background-color:white" id="G4"></div>
+        <div class="col-md-1 square" style="background-color:black" id="H4"></div>
+        <div id="fff" class="col-md-1">5</div>
+    </div>
+    <div id="r5" class="row">
+        <div id="six" class="col-md-1"><span>5</span></div>
+        <div class="col-md-1 square" style="background-color:black"  id="A5"></div>
+        <div class="col-md-1 square" style="background-color:white" id="B5"></div>
+        <div class="col-md-1 square" style="background-color:black" id="C5"></div>
+        <div class="col-md-1 square" style="background-color:white" id="D5"></div>
+        <div class="col-md-1 square" style="background-color:black" id="E5"></div>
+        <div class="col-md-1 square" style="background-color:white" id="F5"></div>
+        <div class="col-md-1 square" style="background-color:black" id="G5"></div>
+        <div class="col-md-1 square" style="background-color:white" id="H5"></div>
+        <div id="ggg" class="col-md-1">4</div>
+    </div>
+    <div id="r6" class="row">
+        <div id="saven" class="col-md-1"><span>6</span></div>
+        <div class="col-md-1 square" style="background-color:white" id="A6"></div>
+        <div class="col-md-1 square" style="background-color:black" id="B6"></div>
+        <div class="col-md-1 square" style="background-color:white" id="C6"></div>
+        <div class="col-md-1 square" style="background-color:black" id="D6"></div>
+        <div class="col-md-1 square" style="background-color:white" id="E6"></div>
+        <div class="col-md-1 square" style="background-color:black" id="F6"></div>
+        <div class="col-md-1 square" style="background-color:white" id="G6"></div>
+        <div class="col-md-1 square" style="background-color:black" id="H6"></div>
+        <div id="hhh" class="col-md-1 ">3</div>
+    </div>
+    <div id="r7" class="row">
+        <div id="eait" class="col-md-1"><span>7</span></div>
+        <div class="col-md-1 square" style="background-color:black"  id="A7" ><img src="Images/pondwhite.png" class="img chess pondwhite white " id="17"></div>
+        <div class="col-md-1 square" style="background-color:white" id="B7"><img src="Images/pondwhite.png" class=" img  chess pondwhite white " id="18"></div>
+        <div class="col-md-1 square" style="background-color:black" id="C7"><img src="Images/pondwhite.png" class=" img  chess pondwhite white " id="19"></div>
+        <div class="col-md-1 square" style="background-color:white" id="D7"><img src="Images/pondwhite.png" class=" img  chess pondwhite white " id="20"></div>
+        <div class="col-md-1 square" style="background-color:black" id="E7"><img src="Images/pondwhite.png" class=" img  chess pondwhite white " id="21" ></div>
+        <div class="col-md-1 square" style="background-color:white" id="F7"><img src="Images/pondwhite.png" class=" img  chess pondwhite white " id="22"></div>
+        <div class="col-md-1 square" style="background-color:black" id="G7"><img src="Images/pondwhite.png" class=" img  chess pondwhite white " id="23"></div>
+        <div class="col-md-1 square" style="background-color:white" id="H7"><img src="Images/pondwhite.png" class=" img  chess pondwhite white " id="24"></div>
+        <div id="jjj" class="col-md-1">2</div>
+    </div>
+    <div r="8" class="row">
+        <div id="nine" class="col-md-1"><span>8</span></div>
+        <div class="col-md-1 square" style="background-color:white" id="A8"><img src="Images/Rook-white.png" class="  img chess white " id="25"></div>
+        <div class="col-md-1 square" style="background-color:black" id="B8"><img src="Images/Knight-white.png" class=" img chess  white " id="26" ></div>
+        <div class="col-md-1 square" style="background-color:white" id="AC"><img src="Images/Bishop-white.png" class="img chess  white "  id="27"></div>
+        <div class="col-md-1 square" style="background-color:black" id="D8"><img src="Images/Queen-white_256x256_32.png" class=" img chess  white "  id="28" ></div>
+        <div class="col-md-1 square" style="background-color:white" id="E8"><img src="Images/King-white.png" class= " img chess  white " ></div>
+        <div class="col-md-1 square" style="background-color:black" id="F8"><img src="Images/Bishop-white.png" class=" img chess  white"  id="30"></div>
+        <div class="col-md-1 square" style="background-color:white" id="G8"><img src="Images/Knight-white.png" class=" img chess  white"  id="31"></div>
+        <div class="col-md-1 square" style="background-color:black" id="H8"><img src="Images/Rook-white.png" class=" img chess  white" id="32"></div>
+        <div id="kkk" class="col-md-1">1</div>
+    </div>
+    <div id="row_last" class="row">
+        <div id="a" class="col-md-1 "></div>
+        <div id="s" class="col-md-1 ">A</div>
+        <div id="d" class="col-md-1 ">B</div>
+        <div id="f" class="col-md-1 ">C</div>
+        <div id="g" class="col-md-1 ">D</div>
+        <div id="h" class="col-md-1 ">E</div>
+        <div id="j" class="col-md-1 ">F</div>
+        <div id="k" class="col-md-1 ">G</div>
+        <div id="l" class="col-md-1 ">H</div>
+        <div id="m" class="col-md-1"></div>
+
+
+
+
+
+
+    </div>
+    <audio autoplay loop controls>
+        <source src="audio/Den Shender - Voices (Original Mix) ZippyOn.ORG.mp3">
+    </audio>
+</div>
+<div id="roulss" class="flex-container">
+    <div class="flex-item">Player Name</div>
+    <div class="flex-item">Maks</div>
+    <div class="flex-item">Other</div>
+</div>
+
+
+
+</div>
+
+<script src="Js/jquery-3.2.1.min.js"></script>
+<script src="Js/jquery-ui.js"></script>
+<script src="Js/homeController.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
